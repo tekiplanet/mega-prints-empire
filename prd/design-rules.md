@@ -46,8 +46,9 @@ MegaPrint Empire uses a **premium, dark-first, SaaS-inspired aesthetic**. The de
 All elements must be reusable and theme-aware.
 
 ### A. Buttons
-- **Primary:** Accent Orange.
+- **Primary:** Accent Orange. Text MUST remain white (#FFFFFF) in all states (resting, hover, focus) to ensure high contrast and accessibility.
 - **Secondary:** Theme-aware glass button.
+- **Hover Transitions:** All buttons must have smooth transitions (0.3s) and include subtle elevation (translateY) or glow to indicate interactivity.
 
 ### B. Glass Cards
 - Used for all content containers.

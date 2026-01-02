@@ -2,15 +2,19 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="section-gap" style="position: relative; overflow: hidden; padding-top: 5rem;">
-    <div class="glow" style="top: -10%; left: 50%; transform: translateX(-50%);"></div>
-    <div class="container" style="text-align: center;">
+<section class="hero-section" style="position: relative; overflow: hidden; margin-top: -5rem; padding-top: 7.5rem; min-height: 85vh; display: flex; align-items: center; background: url('https://ik.imagekit.io/zudgi2oxs/IMG_2630.HEIC?auto=format&fit=crop&q=80&w=2000') no-repeat center center; background-size: cover;">
+    <!-- Theme-aware Overlay -->
+    <div style="position: absolute; inset: 0; background: var(--bg-color); opacity: 0.85; z-index: 1;"></div>
+    
+    <div class="glow" style="top: -10%; left: 50%; transform: translateX(-50%); z-index: 2;"></div>
+    <div class="container" style="text-align: center; position: relative; z-index: 3; width: 100%;">
+
         
         <div class="glass" style="display: inline-flex; align-items: center; gap: 0.75rem; padding: 0.6rem 1.2rem; border-radius: 100px; margin-bottom: 2.5rem;">
             <div style="width: 24px; height: 24px; background: var(--accent-orange); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
             </div>
-            <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-primary);">Premium Brand Solutions</span>
+            <span style="font-size: 0.9rem; font-weight: 600; color: var(--text-primary);">Mega Prints Empire</span>
         </div>
         
         <h1 class="text-gradient" style="font-size: clamp(2.8rem, 10vw, 5.5rem); line-height: 1; margin-bottom: 2rem; letter-spacing: -0.04em; font-weight: 800;">
@@ -29,37 +33,58 @@
             <a href="/services" class="btn btn-secondary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Explore Ecosystem</a>
         </div>
         
-        <!-- Large Brand Showcase -->
-        <div class="glass" style="margin-top: 6rem; height: 450px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 30px; border: 2px solid var(--primary-blue); overflow:hidden; position:relative;">
-             <div style="position:absolute; inset:0; background: linear-gradient(45deg, var(--primary-blue), transparent); opacity: 0.1;"></div>
-             <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="var(--primary-blue)" stroke-width="1" opacity="0.3"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
-             <p class="text-zinc" style="margin-top: 2rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">Megagraphix &rarr; MegaPrint Empire</p>
+        <!-- Modern Brand Showcase Collage -->
+        <div class="collage-container">
+            <!-- Center Main -->
+            <div class="collage-item float-slow" style="width: 400px; height: 300px; z-index: 10; --rot: -2deg;">
+                <img src="https://ik.imagekit.io/zudgi2oxs/Estamparia%20personalizada%20em%20pe%C3%A7as%20que%20a%20cliente%20j%C3%A1%20havia%20adquirido%20na%20Hering.jpg?auto=format&fit=crop&q=80&w=800" alt="Print Lab">
+            </div>
+            <!-- Top Right -->
+            <div class="collage-item float-delay-1" style="width: 280px; height: 200px; top: 0; right: 10%; z-index: 5; --rot: 4deg;">
+                <img src="https://ik.imagekit.io/zudgi2oxs/IMG_0508.HEIC?auto=format&fit=crop&q=80&w=600" alt="Tech Setup">
+            </div>
+            <!-- Top Left -->
+            <div class="collage-item float-delay-2" style="width: 240px; height: 180px; top: 5%; left: 8%; z-index: 5; --rot: -6deg;">
+                <img src="https://ik.imagekit.io/zudgi2oxs/IMG_0549.HEIC?auto=format&fit=crop&q=80&w=500" alt="Packaging">
+            </div>
+            <!-- Bottom Left -->
+            <div class="collage-item float-delay-1" style="width: 300px; height: 220px; bottom: 0; left: 15%; z-index: 8; --rot: 3deg;">
+                <img src="https://ik.imagekit.io/zudgi2oxs/IMG_1305.JPG?auto=format&fit=crop&q=80&w=600" alt="Branding">
+            </div>
+            <!-- Bottom Right -->
+            <div class="collage-item float-delay-2" style="width: 260px; height: 260px; bottom: 5%; right: 5%; z-index: 4; --rot: -4deg;">
+                <img src="https://ik.imagekit.io/zudgi2oxs/IMG_1987.HEIC?auto=format&fit=crop&q=80&w=500" alt="Custom Tshirts">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Modern Panoramic Metrics Ribbon -->
+<section class="metrics-ribbon">
+    <div class="glow" style="top: 0; left: 0; opacity: 0.15;"></div>
+    <div class="container">
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-number">15+</span>
+                <span class="metric-label">Years Excellence</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number">36</span>
+                <span class="metric-label">States Covered</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number">10K</span>
+                <span class="metric-label">Projects Solved</span>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number">24H</span>
+                <span class="metric-label">Rapid Delivery</span>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Stats / Trust Section (Mix of Primary Blue) -->
-<section class="section-gap" style="background: var(--primary-blue); padding: 6rem 0; margin-left: -1rem; margin-right: -1rem; position: relative;">
-     <div class="bg-grid" style="opacity: 0.1;"></div>
-     <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 4rem; text-align: center;">
-          <div>
-              <h2 style="font-size: 3.5rem; color: white;">15+</h2>
-              <p style="color: rgba(255,255,255,0.7); font-weight: 500;">Years of Expertise</p>
-          </div>
-          <div>
-              <h2 style="font-size: 3.5rem; color: white;">36</h2>
-              <p style="color: rgba(255,255,255,0.7); font-weight: 500;">States Covered</p>
-          </div>
-          <div>
-              <h2 style="font-size: 3.5rem; color: white;">10k+</h2>
-              <p style="color: rgba(255,255,255,0.7); font-weight: 500;">Projects Delivered</p>
-          </div>
-          <div>
-              <h2 style="font-size: 3.5rem; color: white;">24h</h2>
-              <p style="color: rgba(255,255,255,0.7); font-weight: 500;">Rapid Response</p>
-          </div>
-     </div>
-</section>
 
 <!-- Services Bento Grid -->
 <section class="section-gap">

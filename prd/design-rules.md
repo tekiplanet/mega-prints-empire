@@ -34,6 +34,7 @@ MegaPrint Empire uses a **premium, dark-first, SaaS-inspired aesthetic**. The de
 ---
 
 ## 2. Global Design Principles
+- **Mandatory Theme Awareness:** Every section, component, and content block must be fully optimized for both Light and Dark modes. No section should have hardcoded colors that prevent it from switching correctly.
 - **Theme Switching:** Essential feature. persistent toggle in header.
 - **Mobile First:** Responsive by design.
 - **Mobile Menu:** Dedicated full-screen overlay or sidebar for mobile devices.

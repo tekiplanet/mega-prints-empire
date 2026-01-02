@@ -80,6 +80,85 @@
         @yield('content')
     </main>
 
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand-side">
+                    <h3>MEGA <span class="text-accent">PRINTS</span></h3>
+                    <p>At Mega Print Empire, we don't just print; we help you communicate and leave lasting impressions.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter/X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+                        </a>
+                        <a href="#" class="social-link" title="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" title="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <span class="footer-title">Solutions</span>
+                    <ul class="footer-links">
+                        <li><a href="/services">Branding & Identity</a></li>
+                        <li><a href="/services">Corporate Stationery</a></li>
+                        <li><a href="/services">Large Format</a></li>
+                        <li><a href="/services">Event Collaterals</a></li>
+                        <li><a href="/services">Custom Fabrication</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <span class="footer-title">Company</span>
+                    <ul class="footer-links">
+                        <li><a href="/about">Our Story</a></li>
+                        <li><a href="/process">The Lab</a></li>
+                        <li><a href="/logistics">Global Reach</a></li>
+                        <li><a href="/contact">Support</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <span class="footer-title">Fulfillment Hubs</span>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>Benin City</strong><br>
+                            Dawnson Junction,<br>Edo State, Nigeria.
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="contact-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.18-2.18a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div class="contact-text">
+                            +234 800 MEGAPRINT<br>
+                            contact@megaprint.empire
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2026 Mega Print Empire. Always On Point.
+                </div>
+                <div style="font-size: 0.75rem; color: var(--text-secondary); display: flex; gap: 1rem;">
+                    <span>Terms of Service</span>
+                    <span>Security Disclosure</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script>
         // Check for saved theme
         const savedTheme = localStorage.getItem('theme') || 'dark';

@@ -30,7 +30,7 @@
                 Start an Order
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
-            <a href="/services" class="btn btn-secondary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Explore Ecosystem</a>
+            <a href="/services" class="btn btn-secondary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Explore Services</a>
         </div>
         
         <!-- Modern Brand Showcase Collage -->
@@ -236,7 +236,7 @@
                         <div class="sensor-dot"></div>
                         <span style="font-size: 0.75rem; font-weight: 700; color: var(--accent-orange); text-transform: uppercase;">System Online</span>
                     </div>
-                    <div style="font-size: 0.85rem; color: var(--text-primary); font-weight: 600;">2024 Industrial Array</div>
+                    <div style="font-size: 0.85rem; color: var(--text-primary); font-weight: 600;">2025 Industrial Array</div>
                     <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 0.25rem;">Consistency Index: 99.9%</div>
                     <div style="margin-top: 1rem; height: 40px; border-left: 2px solid var(--accent-orange); padding-left: 0.75rem; display: flex; align-items: center;">
                         <span style="font-size: 0.7rem; color: var(--text-secondary);">Recalibrating for pixel-perfect output...</span>
@@ -263,7 +263,7 @@
                     </div>
                     <div>
                         <h4>Precision Calibration</h4>
-                        <p>Our 2024 Industrial Print Array is recalibrated every 24 hours to ensure that color accuracy remains identical across every single unit.</p>
+                        <p>Our 2025 Industrial Print Array is recalibrated every 24 hours to ensure that color accuracy remains identical across every single unit.</p>
                     </div>
                 </div>
                 
@@ -274,6 +274,135 @@
                     <div>
                         <h4>Master Craftsmanship</h4>
                         <p>Hardware is only half the story. Our technicians bring years of material expertise to guide every print through specialized finishing processes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Nationwide & Global Reach: Logistics Hub -->
+<section class="logistics-section">
+    <div class="container">
+        <div class="logistics-grid">
+            <div class="logistics-visual">
+                <div class="map-canvas">
+                    <svg viewBox="0 0 1000 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Stylized World Map Paths (Simplified) -->
+                        <path d="M250,150 Q280,100 350,120 T450,150 T550,120 T650,180 T750,150 T850,200 L850,350 Q800,400 700,380 T600,420 T500,450 T400,420 T300,450 T200,400 T150,350 Z" />
+                        <path d="M120,200 Q150,180 180,220 T220,250 T200,300 T150,320 T100,280 Z" />
+                        <circle cx="800" cy="150" r="30" />
+                        <circle cx="150" cy="400" r="40" />
+                        <!-- Decorative Network Lines -->
+                        <line x1="500" y1="250" x2="150" y2="350" stroke="var(--accent-orange)" stroke-width="0.5" stroke-dasharray="4" opacity="0.3" />
+                    </svg>
+                    
+                    <!-- Fulfillment Nodes (Nigeria Focus) -->
+                    <div class="node-pulse" style="top: 68%; left: 49%;" title="Lagos Fulfillment"></div>
+                    <!-- Abuja Center -->
+                    <div class="node-pulse" style="top: 62%; left: 51%;" title="Abuja Delivery"></div>
+                    
+                    <!-- Global Nodes -->
+                    <div class="node-pulse" style="top: 40%; left: 48%;" title="UK Shipping Reach"></div>
+                    <div class="node-pulse" style="top: 45%; left: 20%;" title="US Shipping Reach"></div>
+                    <div class="node-pulse" style="top: 55%; left: 75%;" title="Asia Shipping Reach"></div>
+                </div>
+            </div>
+
+            <div class="departure-terminal" style="grid-column: span 5;">
+                <div class="glass" style="display: inline-flex; align-items: center; gap: 0.75rem; padding: 0.6rem 1.2rem; border-radius: 100px; margin-bottom: 2rem;">
+                    <span style="font-size: 0.85rem; font-weight: 700; color: var(--accent-orange); text-transform: uppercase;">Global Logistics</span>
+                </div>
+                
+                <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: -0.04em; line-height: 1.1; margin-bottom: 2rem;">
+                    Beyond Boundaries. <br> <span class="text-accent">Nationwide Impact.</span>
+                </h2>
+                
+                <p class="text-zinc" style="font-size: 1.1rem; margin-bottom: 3rem;">
+                    Our commitment to coverage is absolute. We fulfill orders across all 36 states in Nigeria and manage international shipping, ensuring your brand reaches any destination with total confidence.
+                </p>
+
+                <div class="departure-board">
+                    <div class="board-header">
+                        <span class="board-label">DELIVERY DESTINATION</span>
+                        <span class="board-label">FULFILLMENT</span>
+                    </div>
+                    
+                    <div class="board-row">
+                        <span class="dest-city">LAGOS METRO</span>
+                        <span class="dest-status">ON TIME</span>
+                    </div>
+                    <div class="board-row">
+                        <span class="dest-city">ABUJA & NORTH</span>
+                        <span class="dest-status">ON TIME</span>
+                    </div>
+                    <div class="board-row">
+                        <span class="dest-city">SOUTH & SOUTH</span>
+                        <span class="dest-status">ON TIME</span>
+                    </div>
+                    <div class="board-row">
+                        <span class="dest-city">UK & EUROPE</span>
+                        <span class="dest-status">ON TIME</span>
+                    </div>
+                    <div class="board-row">
+                        <span class="dest-city">NORTH AMERICA</span>
+                        <span class="dest-status">ON TIME</span>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; display: flex; gap: 2rem; align-items: center;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary);">36</div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em;">States</div>
+                    </div>
+                    <div style="width: 1px; height: 30px; background: var(--glass-border);"></div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary);">24H</div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em;">Logistics Sync</div>
+                    </div>
+                    <div style="width: 1px; height: 30px; background: var(--glass-border);"></div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary);">∞</div>
+                        <div style="font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em;">Global Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action: The Conversion Reactor -->
+<section class="cta-reactor">
+    <div class="container">
+        <div class="reactor-container">
+            <div class="reactor-glow"></div>
+            
+            <div class="reactor-content">
+                <h2 class="reactor-h2">Ready to Make Your Brand <span class="text-accent">Stand Out?</span></h2>
+                <p class="reactor-p">
+                    At Mega Print Empire, we don't just print; we help you communicate and leave lasting impressions. Experience high-quality solutions that are fast, reliable, and always on point.
+                </p>
+                
+                <div class="reactor-actions">
+                    <a href="/order" class="btn btn-primary btn-massive">
+                        Begin Your Project
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+                    </a>
+                    <a href="/services" class="btn btn-secondary btn-massive">Explore Solutions</a>
+                </div>
+                
+                <div class="trust-tags">
+                    <div class="trust-tag">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        Instant Quote
+                    </div>
+                    <div class="trust-tag">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        24h Turnaround
+                    </div>
+                    <div class="trust-tag">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/></svg>
+                        Global Reach
                     </div>
                 </div>
             </div>
